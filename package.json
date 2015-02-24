@@ -4,7 +4,7 @@
   "description": "Remove trailing newline characters from files.",
   "main": "lib/noline.js",
   "bin": {
-    "noline": "noline.js"
+    "noline": "bin/noline.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,8 @@
   "author": "Matthew Phillips",
   "license": "MIT",
   "dependencies": {
-    "pdenodeify": "^0.1.0"
+    "es6-promise": "^2.0.1",
+    "pdenodeify": "^0.1.0",
+    "yargs": "^3.3.1"
   }
 }
